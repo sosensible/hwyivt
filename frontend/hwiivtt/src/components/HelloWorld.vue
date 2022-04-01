@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { RouterLink } from 'vue-router';
 
 defineProps<{ msg: string }>()
 
@@ -31,6 +32,7 @@ const count = ref(0)
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
+  <router-link to="/mwv3/">Modernize with Vue 3</router-link>
 </template>
 
 <style scoped>
