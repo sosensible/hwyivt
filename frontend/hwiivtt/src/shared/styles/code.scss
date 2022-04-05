@@ -1,0 +1,61 @@
+code {
+  display: block;
+  overflow-x: auto;
+  border-radius: 4px;
+  padding: 5px 10px 5px 10px;
+  font-size:x-large;
+  color: #f8f8f2;
+  background: #232629;
+}
+
+code.split {
+  width: 48%;
+}
+
+code.left {
+  float: left;
+}
+
+code.right {
+  float: right;
+  margin-bottom: 8px;
+}
+
+hr {
+  clear: both;
+}
+
+code.vue {
+  .script {
+    color: rgb(103, 255, 103);
+    .body {
+      color: rgb(193, 252, 193);
+    }
+  }
+
+  .template {
+    color: aqua;
+    .body {
+      color: rgb(200, 245, 245);
+    }
+  }
+
+  .style {
+    color: rgb(218, 218, 60);
+    .body {
+      color: rgb(228, 228, 192);
+    }
+  }
+}
+
+code.terminal {
+  color: white;
+  .cmd {
+    color:lightblue;
+  }
+}
+
+code.docker-compose {
+  background-color: rgb(18, 48, 105);
+  color: aqua;
+}

@@ -3,7 +3,6 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-    <h1>13 Ways to Modernize with Vue 3</h1>
     <h2>We will have these all done if we are lucky?</h2>
     <h3>Or if we commit to work over luck!</h3>
     <ol>
