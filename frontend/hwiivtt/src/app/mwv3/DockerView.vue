@@ -1,18 +1,44 @@
 <script setup lang="ts">
+import { reactive } from 'vue'
 import { RouterLink } from 'vue-router'
+
+const show = reactive({
+    focus: 0,
+    list: ['docker-compose','startup','terminal','launch'],
+    live: [],
+})
+
+function focusCheck( item: string ) {
+    return show.live.includes( item );
+}
+
+function moveFocus() {
+  if (show.focus < 4) {
+    show.live.push( show.list[show.focus++] )
+  } else if (show.focus === 4) {
+    show.live = show.list[show.focus++]
+  }
+}
 </script>
 
 <template>
 <div>
-    <h1>Docker</h1>
-    <h2>Dev Stack</h2>
+  <div class="top-row">
+    <div class="left-split">
+      <h1>Docker</h1>
+      <h2>Dev Stack</h2>
+    </div>
+    <div class="right-split">
+      <a href="https://www.docker.com/">
+        <img src="../../assets/Moby-logo-sm.png.webp" style="height: 160px;">
+      </a>
+    </div>
+  </div>
 
-    <a href="https://www.docker.com/">
-      <img src="../../assets/Moby-logo-sm.png.webp" style="height: 160px;">
-    </a>
+    <button @click="moveFocus">&gt;&gt;</button>
 
     <pre>
-      <code class="docker-compose">
+      <code class="docker-compose" v-if="focusCheck( 'docker-compose' )">
 version: "3.4"
 services:
   my_frontend:
@@ -29,10 +55,10 @@ services:
     tty: true
       </code>
 
-      <code class="terminal"> 
+      <code class="terminal" v-if="focusCheck( 'startup' )"> 
 &gt; <span class="cmd">docker compose up -d</span>             
-&gt; <span class="cmd">docker exec -it my_frontend /bin/bash</span>             
-&gt; <span class="cmd">npm init @vitejs/app</span>             
+&gt; <span class="cmd" v-if="focusCheck( 'terminal' )">docker exec -it my_frontend /bin/bash</span>             
+&gt; <span class="cmd" v-if="focusCheck( 'launch' )">npm init @vitejs/app</span>             
       </code>
     </pre>
 

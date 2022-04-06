@@ -35,9 +35,8 @@ const tripple = computed<number>(() => {
     <h1>Compose API</h1>
     <h2>Vue Component Scripting</h2>
 
-    <h3>Script</h3>
-
     <button @click="moveFocus">&gt;&gt;</button>
+
     <hr>
     <div>
       <transition>
@@ -125,7 +124,9 @@ Tripple: &lcub;&lcub; tripple &rcub;&rcub;&lt;br&gt;
 </template>
 
 <style>
-
+input {
+  font-size: 1em;
+}
 /* we will explain what these classes do next! */
 .v-enter-active,
 .v-leave-active {

@@ -8,6 +8,8 @@ import { RouterLink } from 'vue-router'
     <h2>Browser Dev Tools</h2>
 
     <hr>
+    <router-link to="/mwv3/compose">Vue Component Scripting (prev)</router-link> |
     <router-link to="/mwv3/">Modernize Main Page</router-link>
+    | <router-link to="/mwv3/volar">VSCode Vue Experience (next)</router-link>
 </div>
 </template>

@@ -33,6 +33,6 @@ import { RouterLink } from 'vue-router'
     <hr>
     <router-link to="/mwv3/devstack">Dev Stack (prev)</router-link> |
     <router-link to="/mwv3/">Modernize Main Page</router-link>
-    | <router-link to="/mwv3/typescript">TypesSript (next)</router-link>
+    | <router-link to="/mwv3/typescript">TypeScript (next)</router-link>
 </div>
 </template>

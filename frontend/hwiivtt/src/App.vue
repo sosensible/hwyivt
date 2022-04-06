@@ -19,13 +19,25 @@ import { RouterView, RouterLink } from "vue-router";
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
+
+.top-row {
+  clear: both;
+  .left-split {
+    float: left;
+    padding-right: 80px;
+  }
+  .right-split {
+  }
+}
+
 h1 > img {
   height: 40px;
   vertical-align: middle;
