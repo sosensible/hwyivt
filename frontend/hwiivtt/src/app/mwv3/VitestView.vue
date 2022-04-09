@@ -7,7 +7,9 @@ import { RouterLink } from 'vue-router'
   <h1>ViTest</h1>
   <h2>Unit Testing</h2>
 
-  <h3>Unit Testing Refernces</h3>
+  <img src="../../assets/testing.jpg" class="test-focus">
+
+  <h3>Unit Testing References</h3>
 
   <ul>
     <li><a href="https://vitest.dev/guide/comparisons.html" target="_blank">Comparisons</a></li>
@@ -22,3 +24,10 @@ import { RouterLink } from 'vue-router'
   | <router-link to="/mwv3/cypress">E2E Testing (next)</router-link>
 </div>
 </template>
+
+<style>
+.test-focus {
+  padding: 20px;
+  width: 50%;
+}
+</style>
