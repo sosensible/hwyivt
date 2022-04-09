@@ -116,6 +116,8 @@ Tripple: &lcub;&lcub; tripple &rcub;&rcub;&lt;br&gt;
       <input v-model="message" placeholder="Update Message" /><br>
     </div>
     </transition>
+
+    <a href="https://vuejs.org/guide/extras/reactivity-transform.html#refs-vs-reactive-variables" target="_blank">Ref vs Reactive</a>
     <hr>
     <router-link to="/mwv3/typescript">Code Language (prev)</router-link> |
     <router-link to="/mwv3/">Modernize Main Page</router-link>
@@ -123,7 +125,7 @@ Tripple: &lcub;&lcub; tripple &rcub;&rcub;&lt;br&gt;
 </div>
 </template>
 
-<style>
+<style lang="scss">
 input {
   font-size: 1em;
 }

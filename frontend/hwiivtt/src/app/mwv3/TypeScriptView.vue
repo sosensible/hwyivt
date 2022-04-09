@@ -36,7 +36,7 @@ function moveFocus() {
   </div>
 
   <h3>Virtues of TypeScript</h3>
-
+  
   <button @click="moveFocus">&gt;&gt;</button>
 
   <ul>

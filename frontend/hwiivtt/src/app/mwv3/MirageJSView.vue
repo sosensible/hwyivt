@@ -5,7 +5,7 @@ import { RouterLink } from 'vue-router'
 <template>
 <div>
     <h1>MirageJS</h1>
-    <h2>Ajax Prototyping</h2>
+    <h2>AJAX Prototyping</h2>
 
     <hr>
     <router-link to="/mwv3/cypress">E2E Testing (prev)</router-link> |

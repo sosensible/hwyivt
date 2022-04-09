@@ -26,10 +26,15 @@ import { RouterView, RouterLink } from "vue-router";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+
+  button {
+    font-size: 0.9em;
+  }
 }
 
 .top-row {
   clear: both;
+  margin-bottom: 30px;
   .left-split {
     float: left;
     padding-right: 80px;

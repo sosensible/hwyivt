@@ -24,7 +24,7 @@ import { RouterLink } from 'vue-router'
         <li><span class="ext-name">TSLint</span> - TSLint support for Visual Studio Code</li>
         <li><span class="ext-name">Sass</span> - Indented Sass syntax Highlighting, Autocomplete & Formatter</li>
         <li><span class="ext-name">DotENV</span> - Support for dotenv file syntax</li>
-        <li><span class="ext-name">SCSS Formatter</span> - A Visual Studio Code Extension to format SCSS</li>
+        <li><span class="ext-name">scss Formatter</span> - A Visual Studio Code Extension to format scss</li>
         <li><span class="ext-name">Prettier</span> - Code formatter - Code formatter using prettier</li>
         <li><span class="ext-name">Vue 3 Support</span> - All In One - Vue 2/3 Code Syntax Highlight, Snippets, Template Generator And Code Formatters Into Visual Studio Code.</li>
         <li><span class="ext-name">Vue Language Features (Volar)</span> - Language support for Vue 3</li>

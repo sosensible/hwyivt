@@ -3,6 +3,7 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
+  <div>
     <h2>We will have these all done if we are lucky?</h2>
     <h3>Or if we commit to work over luck!</h3>
     <ol>
@@ -21,5 +22,5 @@ import { RouterLink } from 'vue-router'
         <li><router-link to="/mwv3/localstore">Beyond Cookies</router-link></li>
         <li><router-link to="/mwv3/Vuelaboration">Bonus: Time Permitting</router-link></li>
     </ol>
-
+  </div>
 </template>
