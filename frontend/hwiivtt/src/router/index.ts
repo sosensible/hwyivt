@@ -8,6 +8,7 @@ import DockerView from "../app/mwv3/DockerView.vue"
 import EnvvarView from "../app/mwv3/EnvvarView.vue"
 import LocalstoreView from "../app/mwv3/LocalstoreView.vue"
 import MirageJSView from "../app/mwv3/MirageJSView.vue"
+import MockAPIView from "../app/mwv3/MockAPIView.vue"
 import PiniaView from "../app/mwv3/PiniaView.vue"
 import RouterView from "../app/mwv3/RouterView.vue"
 import TypeScriptView from "../app/mwv3/TypeScriptView.vue"
@@ -98,6 +99,11 @@ const router = createRouter({
             path: "/mwv3/vuelaboration",
             name: "mwv3_vuelaboration",
             component: VuelaborationView
+        },
+        {
+            path: "/mwv3/mockapi",
+            name: "mwv3_mochapi",
+            component: MockAPIView
         }
     ]
 })

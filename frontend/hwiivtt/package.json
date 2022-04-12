@@ -17,10 +17,11 @@
     "vue-router": "^4.0.14"
   },
   "devDependencies": {
-    "cypress": "^9.5.3",
     "@vitejs/plugin-vue": "^2.3.1",
     "@vue/test-utils": "^2.0.0-rc.19",
+    "cypress": "^9.5.3",
     "jsdom": "latest",
+    "miragejs": "^0.1.43",
     "typescript": "^4.5.4",
     "vite": "^2.9.1",
     "vitest": "^0.9.2",
